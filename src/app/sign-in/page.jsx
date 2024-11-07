@@ -32,7 +32,7 @@ const SignIn = () => {
             setEmail('');
             setPassword('');
             setErrorMessage(null);
-            router.push('/');
+            router.push('/dashboard');
             sessionStorage.setItem('user', true)
 
         } catch (e) {
