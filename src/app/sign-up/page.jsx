@@ -57,27 +57,28 @@ const SignUp = () => {
                     </div> */}
 
                     <div className='flex flex-col space-y-1'>
-                        <input 
-                            type="email" 
-                            name="email" 
+                        <input
+                            type="email"
+                            name="email"
                             id="email"
                             autoComplete="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            placeholder="Example@gmail.com" 
-                            className='focus:outline-none px-2 h-10 rounded border min-w-72'/>
+                            placeholder="Example@gmail.com"
+                            className='focus:outline-none px-2 h-10 rounded border min-w-72' />
                     </div>
 
                     <div className='flex flex-col space-y-1'>
-                        <input 
-                            type="password" 
-                            name="password" 
+                        <input
+                            type="password"
+                            name="password"
                             id="password"
                             autoComplete="new-password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
-                            placeholder="Password"  
-                            className='focus:outline-none px-2 h-10 rounded border min-w-72'/>
+                            placeholder="Password"
+                            className='focus:outline-none px-2 h-10 rounded border min-w-72' />
+
                     </div>
 
                     {errorMessage && (
