@@ -22,11 +22,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased grid grid-cols-[17%_83%]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div>
-          <MenuBar />
-        </div>
         {children}
       </body>
     </html>
